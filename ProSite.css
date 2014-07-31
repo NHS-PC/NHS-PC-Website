@@ -1,0 +1,151 @@
+
+body 
+{
+	height: 100%;
+	margin-bottom: 30px;
+}
+
+.SiteHeader 
+{
+    height:80px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0 auto;
+}
+
+.Title
+{
+	padding-left: 0;
+	padding-top: 0;
+	text-align: center;
+	font-family: Clear Sans Medium, "Palatino Linotype", Times, serif;
+	font-size: 38px;
+	color: #5c5c5c;
+	
+}
+
+#menu
+{
+	width: 960px;
+    height: 25px;
+    font-size: 14px;
+    font-family: Clear Sans Light, Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #F0F0F0;
+}
+
+#menu ul
+{
+	height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+#menu li
+{
+	display: inline;
+	padding: 20px;
+}
+
+#menu a:visited
+{
+	color: #5c5c5c;
+}
+
+#menu a:link
+{
+	color: #5c5c5c;
+}
+
+#content
+{
+	width:960px;
+    background: #F0F0F0;
+    border: 1px solid #CCC;
+    height: 1025px;
+    margin: 20px auto;
+}
+.SiteFooter 
+{
+    height:30px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0 auto;
+}
+
+.Nav
+{
+	font-family: Clear Sans Thin, "Palatino Linotype", Times, serif;
+	font-size: 16px;
+	color: #5c5c5c;
+	padding: 0 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+.FooterText
+{
+	padding-left: 0;
+	padding-top: 0;
+	text-align: center;
+	font-family: Clear Sans Thin, "Palatino Linotype", Times, serif;
+	font-size: 16px;
+	color: #5c5c5c;
+	padding-top: 3px;
+}
+
+h1 {
+	color: #000000;
+	font-family: Clear Sans Light, "Palatino Linotype", Times, serif;
+	border-top: 2px solid #d1d1d1;
+	padding-top: 7px;
+	padding-left: 50px;
+}
+
+h2, h3 
+{
+	color: #505050;
+	font-family: Clear Sans Light, "Palatino Linotype", Times, serif;
+	padding-top: 7px;
+	padding-left: 50px;
+	font-size: 18px;
+	font-style: normal;
+}
+
+p {
+	color: #505050;
+	font-size: 1em;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#content li
+{
+	color: #505050;
+	font-size: 1em;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	margin-bottom: 100px;
+	margin-left: 25px;
+	margin-right: 50px;
+}
+
+a:link 
+{
+  color: #000000;
+  text-decoration: none;
+}
+
+a:visited
+{
+	color: #000000;
+	font-family: Clear Sans Medium
+}
+
+a:hover
+{
+	color: #aeaca0;
+}
