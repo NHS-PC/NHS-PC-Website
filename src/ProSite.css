@@ -1,4 +1,19 @@
 
+@font-face {
+	font-family: clear-sans-light;
+	src: url('fonts/clear-sans.light.ttf');
+}
+
+@font-face {
+	font-family: clear-sans-medium;
+	src: url('fonts/clear-sans.medium.ttf');
+}
+
+@font-face {
+	font-family: clear-sans-thin;
+	src: url('fonts/clear-sans.thin.ttf');
+}
+
 body 
 {
 	height: 100%;
@@ -19,7 +34,7 @@ body
 	padding-left: 0;
 	padding-top: 0;
 	text-align: center;
-	font-family: Clear Sans Medium, "Palatino Linotype", Times, serif;
+	font-family: clear-sans-light, "Palatino Linotype", Times, serif;
 	font-size: 38px;
 	color: #5c5c5c;
 	
@@ -30,7 +45,7 @@ body
 	width: 960px;
     height: 25px;
     font-size: 14px;
-    font-family: Clear Sans Light, Tahoma, Geneva, sans-serif;
+    font-family: clear-sans-light, Tahoma, Geneva, sans-serif;
     font-weight: bold;
     text-align: center;
     background-color: #F0F0F0;
@@ -78,7 +93,7 @@ body
 
 .Nav
 {
-	font-family: Clear Sans Thin, "Palatino Linotype", Times, serif;
+	font-family: clear-sans-thin, "Palatino Linotype", Times, serif;
 	font-size: 16px;
 	color: #5c5c5c;
 	padding: 0 20px;
@@ -91,7 +106,7 @@ body
 	padding-left: 0;
 	padding-top: 0;
 	text-align: center;
-	font-family: Clear Sans Thin, "Palatino Linotype", Times, serif;
+	font-family: clear-sans-thin, "Palatino Linotype", Times, serif;
 	font-size: 16px;
 	color: #5c5c5c;
 	padding-top: 3px;
@@ -99,7 +114,7 @@ body
 
 h1 {
 	color: #000000;
-	font-family: Clear Sans Light, "Palatino Linotype", Times, serif;
+	font-family: clear-sans-light, "Palatino Linotype", Times, serif;
 	border-top: 2px solid #d1d1d1;
 	padding-top: 7px;
 	padding-left: 50px;
@@ -108,7 +123,7 @@ h1 {
 h2, h3 
 {
 	color: #505050;
-	font-family: Clear Sans Light, "Palatino Linotype", Times, serif;
+	font-family: clear-sans-light, "Palatino Linotype", Times, serif;
 	padding-top: 7px;
 	padding-left: 50px;
 	font-size: 18px;
@@ -142,7 +157,7 @@ a:link
 a:visited
 {
 	color: #000000;
-	font-family: Clear Sans Medium
+	font-family: clear-sans-medium, Arial, Helvetica, sans-serif;
 }
 
 a:hover
