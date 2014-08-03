@@ -79,7 +79,7 @@ body
 	width:960px;
     background: #F0F0F0;
     border: 1px solid #CCC;
-    height: 1025px;
+    height: 1050px;
     margin: 20px auto;
 }
 .SiteFooter 
@@ -154,13 +154,28 @@ a:link
   text-decoration: none;
 }
 
+.nocolor
+{
+	color: #000000;
+}
+
+.withcolor
+{
+	color: #aeaca0;
+}
+
 a:visited
 {
 	color: #000000;
 	font-family: clear-sans-medium, Arial, Helvetica, sans-serif;
 }
 
-a:hover
+#ProjectItem a:hover
 {
-	color: #aeaca0;
+	color: #aeaca0;	
+}
+
+a:hover.FooterText
+{
+	color: #aeaca0;	
 }
