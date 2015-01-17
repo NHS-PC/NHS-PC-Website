@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quicksort Challenge</title>
+	<link rel="stylesheet" href="ProSite.css">
+</head>
+<body>
+	<header class="SiteHeader">
+  		<div class="Title">NHS Programming Club</div>
+  		<div id="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+            	<li><a href="sums.html">Meeting Summaries</a></li>
+            	<li><a href="projects.html">Projects</a></li>
+            	<li><a href="challenges.html" style="color: #b3b1a4;">Challenges</a></li>
+            	<li><a href="https://docs.google.com/forms/d/1NJ07TSHMgXMNo90G8jMXOAXX8WxjBp4475913w2xw_4/viewform" target="_blank">Join Club</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<div id="content" style="height:1200px">
+		<h1>Challenge #1 - Quicksort</h1>
+		<h2>Introduction</h2>
+		<p>Quicksort is a sorting algorithm that is meant to be faster and more efficent than insertion sort or bubble sort. For this challenge, try and implement quicksort to sort a list of numbers of any size.</p>
+		<h2>The Challenge Details</h2>
+		<p>Quicksort involves the following:</p>
+		<p>1) Start with the whole list</p>
+		<p>2) Pick a random value from the list - it does not have to be from the middle. This will be our pivot.</p>
+		<p>3) Reorder the list, moving (in no particular order) everything that is smaller than the pivot to the left of it and everything that's greater than the pivot to the right of it.  Now, the list to the left of, not including, the pivot is known as list S, and the list to the right of, not including, the pivot is known as list G.  S and G don't have to be created in order, just so long as they are all smaller or greater than the pivot respectively.</p>
+		<p>4) Now repeat step 2 onward for lists S and G. If the list only contains zero or one items, you can stop, as it's by default sorted. If either only contains 2 items, it might make it quicker to just compare and swap if necessary instead of doing the whole sorting procedure.</p>
+		<h2>Main objective of Challenge</h2>
+		<p>Using the knowledge provided above and doing a quick google search on more info about quicksort, quicksort a long list of arbitarary numbers using your own method of quicksort, not a built-in library method.</p>
+		<h2>Allowed Inputs and Outputs</h2>
+		<p>Ask the user for the size of the list, and then ask the user to fill in the list according to the size. Then, quicksort the list of numbers (including decimals).</p>
+		<h2>Solution</h2>
+		<p>
+			<a href="http://www.vogella.com/tutorials/JavaAlgorithmsQuicksort/article.html"><font color="red">Link to Java Code Example</font></a>
+		</p>
+		<h3>Diagram of QuickSort</h3>
+		<p>
+			<a href="quicksort_21.png"><img src="quicksort_21.png" alt="QuickSort Diagram" width="300" height="300"></a>
+		</p>
+	</div>
+
+	<footer class="SiteFooter">
+		<div class="FooterText"><a href="http://nhs.needham.k12.ma.us/main/">NHS Website</a></div>
+	</footer>
+</body>
+</html>
